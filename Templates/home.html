@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiro flask app</title>
+</head>
+<body>
+
+
+<h3>Project Test</h3>
+<p></p>
+<form action="{{ url_for('new_home') }}" method="post">
+<input type="text" name="cep" id="cep" placeholder="Enter your CEP" required>
+    <p></p>
+<input type="submit" value="Test Validation">
+</form>
+</body>
+</html>

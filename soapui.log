@@ -1,0 +1,554 @@
+2021-01-12 11:12:58,962 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AndersonGuilherme\soapui-settings.xml]
+2021-01-12 11:13:00,279 INFO  [Reflections] Reflections took 90 ms to scan 2 urls, producing 75 keys and 160 values 
+2021-01-12 11:13:00,334 INFO  [Reflections] Reflections took 31 ms to scan 1 urls, producing 46 keys and 344 values 
+2021-01-12 11:13:00,357 INFO  [Reflections] Reflections took 9 ms to scan 1 urls, producing 11 keys and 17 values 
+2021-01-12 11:13:00,384 INFO  [Reflections] Reflections took 11 ms to scan 1 urls, producing 13 keys and 21 values 
+2021-01-12 11:13:00,643 INFO  [Reflections] Reflections took 183 ms to scan 13 urls, producing 341 keys and 1458 values 
+2021-01-12 11:13:00,659 INFO  [PluginManager] Adding plugin from [C:\Users\AndersonGuilherme\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2021-01-12 11:13:00,659 INFO  [PluginManager] Adding plugin from [C:\Users\AndersonGuilherme\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2021-01-12 11:13:00,845 INFO  [Reflections] Reflections took 45 ms to scan 2 urls, producing 75 keys and 160 values 
+2021-01-12 11:13:01,056 INFO  [Reflections] Reflections took 192 ms to scan 13 urls, producing 341 keys and 1458 values 
+2021-01-12 11:13:01,580 INFO  [Reflections] Reflections took 723 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-01-12 11:13:01,606 INFO  [PluginManager] Adding plugin from [C:\Users\AndersonGuilherme\.soapuios\plugins\ready-uxm-plugin-os-1.0.3.jar]
+2021-01-12 11:13:01,629 INFO  [Reflections] Reflections took 14 ms to scan 1 urls, producing 46 keys and 344 values 
+2021-01-12 11:13:01,720 INFO  [Reflections] Reflections took 647 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-01-12 11:13:01,744 INFO  [PluginManager] Adding plugin from [C:\Users\AndersonGuilherme\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2021-01-12 11:13:01,754 INFO  [Reflections] Reflections took 4 ms to scan 1 urls, producing 11 keys and 17 values 
+2021-01-12 11:13:02,127 INFO  [Reflections] Reflections took 488 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-01-12 11:13:02,135 INFO  [PluginManager] Adding plugin from [C:\Users\AndersonGuilherme\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2021-01-12 11:13:02,151 INFO  [Reflections] Reflections took 6 ms to scan 1 urls, producing 13 keys and 21 values 
+2021-01-12 11:13:02,274 INFO  [Reflections] Reflections took 516 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-01-12 11:13:02,658 INFO  [Reflections] Reflections took 500 ms to scan 1 urls, producing 1492 keys and 5707 values 
+2021-01-12 11:13:02,675 INFO  [PluginManager] 5 plugins loaded in 2015 ms
+2021-01-12 11:13:02,675 INFO  [DefaultSoapUICore] All plugins loaded
+2021-01-12 11:13:04,047 INFO  [WsdlProject] Loaded project from [file:/C:/Users/AndersonGuilherme/Documents/Projeto-Cep-soapui-project.xml]
+2021-01-12 11:13:04,056 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Projeto Cep]
+2021-01-12 11:13:04,060 INFO  [SoapUITestCaseRunner] Running Project [Projeto Cep], runType = SEQUENTIAL
+2021-01-12 11:13:04,075 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [consultaCEP TestCase]
+2021-01-12 11:13:04,081 INFO  [SoapUITestCaseRunner] running step [TC-001 válido sem hífen]
+2021-01-12 11:13:04,624 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-01-12 11:13:04,627 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-01-12 11:13:04,659 INFO  [SoapUITestCaseRunner] running step [TC-002 válido com hífen]
+2021-01-12 11:13:05,036 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+2021-01-12 11:13:05,037 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [end] in Response
+2021-01-12 11:13:05,037 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status FAILED
+2021-01-12 11:13:05,037 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response is a SOAP Fault
+2021-01-12 11:13:05,037 ERROR [SoapUITestCaseRunner] TC-002 válido com hífen failed, exporting to [C:\Users\AndersonGuilherme\Desktop\testes\Projeto_Cep_TestSuite-consultaCEP_TestCase-TC002_válido_com_hífen-0-FAILED.txt]
+2021-01-12 11:13:05,049 INFO  [SoapUITestCaseRunner] running step [TC-003 Cep não encontrado]
+2021-01-12 11:13:05,314 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-01-12 11:13:05,314 INFO  [SoapUITestCaseRunner] Assertion [SOAP Fault] has status VALID
+2021-01-12 11:13:05,325 INFO  [SoapUITestCaseRunner] running step [TC-004 Cep inválido]
+2021-01-12 11:13:05,539 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-01-12 11:13:05,539 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2021-01-12 11:13:05,539 INFO  [SoapUITestCaseRunner] Assertion [SOAP Fault] has status VALID
+2021-01-12 11:13:05,564 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [consultaCEP TestCase], time taken: 1392ms, status: FINISHED
+2021-01-12 11:13:05,571 INFO  [SoapUITestCaseRunner] Project [Projeto Cep] finished with status [FINISHED] in 1501ms
+2021-01-12 11:13:05,603 ERROR [SoapUITestCaseRunner] java.lang.Exception: Contains in [TC-002 válido com hífen] failed;
+[Missing token [end] in Response]
+Status: FAILED
+Time Taken: 376
+Size: 369
+Timestamp: Tue Jan 12 11:13:04 BRST 2021
+TestStep: TC-002 válido com hífen
+
+----------------- Messages ------------------------------
+[Contains] Missing token [end] in Response
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/12.0.1)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 333
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>12345-789</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.38 (Debian)
+X-OPNET-Transaction-Trace : a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Tue, 12 Jan 2021 13:12:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+Not SOAP Fault in [TC-002 válido com hífen] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 376
+Size: 369
+Timestamp: Tue Jan 12 11:13:04 BRST 2021
+TestStep: TC-002 válido com hífen
+
+----------------- Messages ------------------------------
+[Contains] Missing token [end] in Response
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/12.0.1)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 333
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>12345-789</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.38 (Debian)
+X-OPNET-Transaction-Trace : a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Tue, 12 Jan 2021 13:12:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+2021-01-12 11:13:05,614 ERROR [SoapUI] An error occurred [Contains in [TC-002 válido com hífen] failed;
+[Missing token [end] in Response]
+Status: FAILED
+Time Taken: 376
+Size: 369
+Timestamp: Tue Jan 12 11:13:04 BRST 2021
+TestStep: TC-002 válido com hífen
+
+----------------- Messages ------------------------------
+[Contains] Missing token [end] in Response
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/12.0.1)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 333
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>12345-789</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.38 (Debian)
+X-OPNET-Transaction-Trace : a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Tue, 12 Jan 2021 13:12:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+Not SOAP Fault in [TC-002 válido com hífen] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 376
+Size: 369
+Timestamp: Tue Jan 12 11:13:04 BRST 2021
+TestStep: TC-002 válido com hífen
+
+----------------- Messages ------------------------------
+[Contains] Missing token [end] in Response
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/12.0.1)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 333
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>12345-789</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.38 (Debian)
+X-OPNET-Transaction-Trace : a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Tue, 12 Jan 2021 13:12:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+], see error log for details
+2021-01-12 11:13:05,630 ERROR [errorlog] java.lang.Exception: Contains in [TC-002 válido com hífen] failed;
+[Missing token [end] in Response]
+Status: FAILED
+Time Taken: 376
+Size: 369
+Timestamp: Tue Jan 12 11:13:04 BRST 2021
+TestStep: TC-002 válido com hífen
+
+----------------- Messages ------------------------------
+[Contains] Missing token [end] in Response
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/12.0.1)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 333
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>12345-789</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.38 (Debian)
+X-OPNET-Transaction-Trace : a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Tue, 12 Jan 2021 13:12:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+Not SOAP Fault in [TC-002 válido com hífen] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 376
+Size: 369
+Timestamp: Tue Jan 12 11:13:04 BRST 2021
+TestStep: TC-002 válido com hífen
+
+----------------- Messages ------------------------------
+[Contains] Missing token [end] in Response
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/12.0.1)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 333
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>12345-789</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.38 (Debian)
+X-OPNET-Transaction-Trace : a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Tue, 12 Jan 2021 13:12:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+java.lang.Exception: Contains in [TC-002 válido com hífen] failed;
+[Missing token [end] in Response]
+Status: FAILED
+Time Taken: 376
+Size: 369
+Timestamp: Tue Jan 12 11:13:04 BRST 2021
+TestStep: TC-002 válido com hífen
+
+----------------- Messages ------------------------------
+[Contains] Missing token [end] in Response
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/12.0.1)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 333
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>12345-789</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.38 (Debian)
+X-OPNET-Transaction-Trace : a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Tue, 12 Jan 2021 13:12:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+Not SOAP Fault in [TC-002 válido com hífen] failed;
+[Response is a SOAP Fault]
+Status: FAILED
+Time Taken: 376
+Size: 369
+Timestamp: Tue Jan 12 11:13:04 BRST 2021
+TestStep: TC-002 válido com hífen
+
+----------------- Messages ------------------------------
+[Contains] Missing token [end] in Response
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/12.0.1)
+Host : apps.correios.com.br
+Accept-Encoding : gzip,deflate
+Content-Length : 333
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cli="http://cliente.bean.master.sigep.bsb.correios.com.br/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cli:consultaCEP>
+         <!--Optional:-->
+         <cep>12345-789</cep>
+      </cli:consultaCEP>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Apache/2.4.38 (Debian)
+X-OPNET-Transaction-Trace : a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866
+Content-Encoding : gzip
+Connection : close
+Vary : Accept-Encoding,User-Agent
+Set-Cookie : _op_aixPageId=a2_1d20cbbc-6f1f-48e2-9f29-ff9d89af1866; Path=/
+Set-Cookie : app-%3FINTERNO%3Fpool_proxy_app_sigep_443=POCCAIAK; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+Set-Cookie : sto-id-%3FEXTERNO_2%3Fpool_Proxy_reverso_Apps_443=MOABKIMA; Expires=Tue, 12-Jan-2021 13:33:03 GMT; Path=/
+#status# : HTTP/1.1 500 Internal Server Error
+Content-Length : 222
+Date : Tue, 12 Jan 2021 13:12:53 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <soap:Fault>
+         <faultcode>soap:Server</faultcode>
+         <faultstring>CEP NAO ENCONTRADO</faultstring>
+         <detail>
+            <ns2:SigepClienteException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">CEP NAO ENCONTRADO</ns2:SigepClienteException>
+         </detail>
+      </soap:Fault>
+   </soap:Body>
+</soap:Envelope>
+
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:435)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:137)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.runFromCommandLine(AbstractSoapUIRunner.java:112)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.main(SoapUITestCaseRunner.java:122)
+2021-01-12 11:13:05,649 WARN  [Tools] Could not delete temporary directory C:\Users\ANDERS~1\AppData\Local\Temp\a2c35aeb-6cc2-45a7-88be-4618cbceebc3
+2021-01-12 11:13:05,656 WARN  [Tools] Could not delete temporary directory C:\Users\ANDERS~1\AppData\Local\Temp\e1da6f7a-f868-4832-909f-cac4579386e2
+2021-01-12 11:13:05,657 WARN  [Tools] Could not delete temporary directory C:\Users\ANDERS~1\AppData\Local\Temp\84f98c70-299b-4b6a-8d9b-3dff0a381445
